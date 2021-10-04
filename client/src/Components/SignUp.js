@@ -13,6 +13,8 @@ function SignUp({ setUser, handleShowLoginClearErrors, setErrors }){
         last_name: ""
     })
 
+    console.log(userData)
+
     function handleCreateUser(event) {
         setUserData({...userData, 
             [event.target.name] : event.target.value})

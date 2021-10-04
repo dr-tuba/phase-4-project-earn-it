@@ -8,7 +8,7 @@ const Navbar = ({ user, isParent, handleLogOut }) => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <h1>ChoresApp</h1>
+                    <h1>EarnIt</h1>
                 </NavLink>
                 <NavMenu>
                     <NavLink to="/" activeStyle>
